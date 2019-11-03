@@ -1,0 +1,48 @@
+#table{
+  width: 700px;
+  margin-top: 15px;
+}
+
+.table-head tr{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+#table-users-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+#all-users-string{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+#all-users-string td{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#one-user-info{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  position: relative;
+}
+.close-user{
+  cursor: pointer;
+  color: red;
+  position: absolute;
+  bottom: 0;
+}
+.user-first-info{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.user{
+  margin-bottom: 25px;
+}
